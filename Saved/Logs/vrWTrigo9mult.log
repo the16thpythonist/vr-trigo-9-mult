@@ -1,0 +1,1370 @@
+﻿Log file open, 11/27/18 17:44:21
+LogInit:Display: Running engine for game: vrWTrigo9mult
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1697527128) SRandInit(1697527129).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.406105
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.27-16.44.21:351][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.27-16.44.21:351][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.27-16.44.21:390][  0]LogInit: Computer: IPE-VR-G752VS
+[2018.11.27-16.44.21:391][  0]LogInit: User: PDV
+[2018.11.27-16.44.21:391][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.11.27-16.44.21:391][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2018.11.27-16.44.21:391][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.27-16.44.21:391][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.27-16.44.21:391][  0]LogMemory: Process Physical Memory: 259.29 MB used, 259.29 MB peak
+[2018.11.27-16.44.21:391][  0]LogMemory: Process Virtual Memory: 259.85 MB used, 259.85 MB peak
+[2018.11.27-16.44.21:391][  0]LogMemory: Physical Memory: 5422.46 MB used, 16319.74 MB total
+[2018.11.27-16.44.21:391][  0]LogMemory: Virtual Memory: 657.76 MB used, 134217728.00 MB total
+[2018.11.27-16.44.22:613][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2018.11.27-16.44.24:591][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.27-16.44.24:651][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.11.27-16.44.24:651][  0]LogD3D11RHI:       8089/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.27-16.44.24:657][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.27-16.44.24:657][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.27-16.44.24:657][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.27-16.44.24:668][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.27-16.44.24:668][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.27-16.44.24:668][  0]LogWindows: EnumDisplayDevices:
+[2018.11.27-16.44.24:669][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.11.27-16.44.24:669][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.11.27-16.44.24:670][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.27-16.44.24:670][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.27-16.44.24:670][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.27-16.44.24:670][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.11.27-16.44.24:670][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.27-16.44.24:670][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.27-16.44.24:670][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.11.27-16.44.24:716][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.27-16.44.24:758][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.27-16.44.24:762][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/UnrealProjects/vrWTrigo9mult/Intermediate/Shaders/WorkingDirectory/19104/).
+[2018.11.27-16.44.24:762][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PDV/AppData/Local/Temp/UnrealShaderWorkingDir/943B42094DD61E92ABCE2EA7DD09EE43/'.
+[2018.11.27-16.44.24:762][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.11.27-16.44.26:833][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.27-16.44.26:847][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.27-16.44.26:861][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.27-16.44.26:873][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.27-16.44.26:886][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.11.27-16.44.26:899][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-16.44.26:912][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.27-16.44.26:924][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.27-16.44.26:936][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.27-16.44.26:947][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.27-16.44.26:958][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.27-16.44.26:982][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.27-16.44.26:982][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.27-16.44.26:985][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.11.27-16.44.27:017][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.11.27-16.44.27:027][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.11.27-16.44.27:038][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.27-16.44.27:049][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.27-16.44.27:061][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.27-16.44.27:075][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.11.27-16.44.27:076][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.11.27-16.44.27:259][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.11.27-16.44.27:634][  0]LogDerivedDataCache: Loaded boot cache 0.37s 88MB C:/Users/PDV/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2018.11.27-16.44.27:634][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/PDV/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2018.11.27-16.44.27:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjects/vrWTrigo9mult/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.27-16.44.27:634][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.27-16.44.27:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjects/vrWTrigo9mult/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.27-16.44.27:634][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.27-16.44.27:658][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.27-16.44.27:674][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PDV/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.27-16.44.28:301][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.27-16.44.28:319][  0]LogTexture:Display: Building textures: T_Default_Material_Grid_M (AutoDXT)
+[2018.11.27-16.44.28:529][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.11.27-16.44.28:531][  0]LogTexture:Display: Building textures: T_Default_Material_Grid_N (BC5)
+[2018.11.27-16.44.28:678][  0]LogTexture:Display: Building textures: DefaultDiffuse (AutoDXT)
+[2018.11.27-16.44.29:618][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.11.27-16.44.29:618][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.11.27-16.44.29:618][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2018.11.27-16.44.29:870][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.27-16.44.29:879][  0]LogTexture:Display: Building textures: DefaultTexture (DXT1)
+[2018.11.27-16.44.29:945][  0]LogTexture:Display: Building textures: S_Actor (BGRA8)
+[2018.11.27-16.44.29:953][  0]LogTexture:Display: Building textures: S_LevelSequence (BGRA8)
+[2018.11.27-16.44.30:055][  0]LogTexture:Display: Building textures: Bad (BGRA8)
+[2018.11.27-16.44.30:132][  0]LogTexture:Display: Building textures: Grid (AutoDXT)
+[2018.11.27-16.44.30:266][  0]LogTexture:Display: Building textures: PSysThumbnail_NoImage (AutoDXT)
+[2018.11.27-16.44.30:281][  0]LogTexture:Display: Building textures: PSysThumbnail_OOD (AutoDXT)
+[2018.11.27-16.44.30:292][  0]LogTexture:Display: Building textures: S_DecalActorIcon (AutoDXT)
+[2018.11.27-16.44.30:369][  0]LogTexture:Display: Building textures: S_Terrain (BGRA8)
+[2018.11.27-16.44.30:483][  0]LogTexture:Display: Building textures: T_EditorHelp (AutoDXT)
+[2018.11.27-16.44.31:256][  0]LogTexture:Display: Building textures: flipbook (AutoDXT)
+[2018.11.27-16.44.31:274][  0]LogTexture:Display: Building textures: S_Emitter (BGRA8)
+[2018.11.27-16.44.31:286][  0]LogTexture:Display: Building textures: S_ExpoHeightFog (BGRA8)
+[2018.11.27-16.44.31:297][  0]LogTexture:Display: Building textures: S_NavP (BGRA8)
+[2018.11.27-16.44.31:310][  0]LogTexture:Display: Building textures: S_Player (BGRA8)
+[2018.11.27-16.44.31:326][  0]LogTexture:Display: Building textures: S_WindDirectional (AutoDXT)
+[2018.11.27-16.44.31:427][  0]LogTexture:Display: Building textures: S_PortalActorIcon2 (AutoDXT)
+[2018.11.27-16.44.31:474][  0]LogTexture:Display: Building textures: MatInstActSprite (BGRA8)
+[2018.11.27-16.44.31:481][  0]LogTexture:Display: Building textures: SceneManager (BGRA8)
+[2018.11.27-16.44.31:498][  0]LogTexture:Display: Building textures: S_Note (BGRA8)
+[2018.11.27-16.44.31:516][  0]LogTexture:Display: Building textures: S_ReflActorIcon (AutoDXT)
+[2018.11.27-16.44.31:561][  0]LogTexture:Display: Building textures: S_Thruster (BGRA8)
+[2018.11.27-16.44.31:573][  0]LogTexture:Display: Building textures: S_RadForce (BGRA8)
+[2018.11.27-16.44.31:584][  0]LogTexture:Display: Building textures: TargetIcon (BGRA8)
+[2018.11.27-16.44.31:606][  0]LogTexture:Display: Building textures: S_TextRenderActorIcon (AutoDXT)
+[2018.11.27-16.44.31:631][  0]LogTexture:Display: Building textures: S_Trigger (BGRA8)
+[2018.11.27-16.44.31:649][  0]LogTexture:Display: Building textures: S_VectorFieldVol (BGRA8)
+[2018.11.27-16.44.31:727][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: vrwtrigo9mult, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 3249632202
+[2018.11.27-16.44.31:783][  0]LogAssetRegistry: FAssetRegistry took 0.0234 seconds to start up
+[2018.11.27-16.44.31:864][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.074553 seconds
+[2018.11.27-16.44.31:874][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2018.11.27-16.44.31:874][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2018.11.27-16.44.31:874][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.27-16.44.31:896][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.27-16.44.32:286][  0]LogTexture:Display: Building textures: VR_LaserPower_01 (AutoDXT)
+[2018.11.27-16.44.32:505][  0]LogTexture:Display: Building textures: UE4_Logo (AutoDXT)
+[2018.11.27-16.44.32:732][  0]LogTexture:Display: Building textures: SimpleGrid (AutoDXT)
+[2018.11.27-16.44.32:884][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.27-16.44.32:884][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.27-16.44.34:630][  0]LogTexture:Display: Building textures: DummySpriteTexture (AutoDXT)
+[2018.11.27-16.44.34:694][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.27-16.44.34:727][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.27-16.44.35:223][  0]SourceControl: Info Source control is disabled
+[2018.11.27-16.44.35:226][  0]SourceControl: Info Source control is disabled
+[2018.11.27-16.44.35:248][  0]SourceControl: Info Source control is disabled
+[2018.11.27-16.44.35:266][  0]SourceControl: Info Source control is disabled
+[2018.11.27-16.44.35:854][  0]LogEngine: Initializing Engine...
+[2018.11.27-16.44.36:798][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-93B68B81
+[2018.11.27-16.44.37:558][  0]LogTexture:Display: Building textures: DefaultWhiteGrid (AutoDXT)
+[2018.11.27-16.44.37:664][  0]LogTexture:Display: Building textures: InvalidLightmapSettings (AutoDXT)
+[2018.11.27-16.44.37:732][  0]LogTexture:Display: Building textures: HeatmapGradient (BGRA8)
+[2018.11.27-16.44.37:745][  0]LogTexture:Display: Building textures: PreviewShadowIndicator (BGRA8)
+[2018.11.27-16.44.37:830][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.27-16.44.37:899][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2018.11.27-16.44.38:044][  0]LogInit: FAudioDevice initialized.
+[2018.11.27-16.44.38:119][  0]LogDerivedDataCache: Saved boot cache 0.08s 101MB C:/Users/PDV/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2018.11.27-16.44.38:134][  0]LogInit: Texture streaming: Enabled
+[2018.11.27-16.44.38:184][  0]LogInit: Transaction tracking system initialized
+[2018.11.27-16.44.38:239][  0]BlueprintLog: New page: Editor Load
+[2018.11.27-16.44.38:427][  0]LocalizationService: Info Localization service is disabled
+[2018.11.27-16.44.38:581][  0]LogConsoleResponse:Display: 
+[2018.11.27-16.44.38:630][  0]LogTexture:Display: Building textures: Cross (AutoDXT)
+[2018.11.27-16.44.38:635][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2018.11.27-16.44.38:669][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2018.11.27-16.44.38:690][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2018.11.27-16.44.38:706][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2018.11.27-16.44.38:720][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2018.11.27-16.44.38:734][  0]LogTexture:Display: Building textures: Tick (AutoDXT)
+[2018.11.27-16.44.38:741][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2018.11.27-16.44.38:762][  0]LogTexture:Display: Building textures: WidgetGridVertexColorMaterial (AutoDXT)
+[2018.11.27-16.44.38:776][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2018.11.27-16.44.38:793][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2018.11.27-16.44.38:808][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2018.11.27-16.44.38:824][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2018.11.27-16.44.38:841][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2018.11.27-16.44.38:857][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2018.11.27-16.44.38:875][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2018.11.27-16.44.38:916][  0]LogTexture:Display: Building textures: CASC_Cross (AutoDXT)
+[2018.11.27-16.44.38:917][  0]LogTexture:Display: Building textures: CASC_None (AutoDXT)
+[2018.11.27-16.44.38:921][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2018.11.27-16.44.38:945][  0]LogTexture:Display: Building textures: Texture2D_28 (AutoDXT)
+[2018.11.27-16.44.38:958][  0]LogTexture:Display: Building textures: S_KBSJoint (BGRA8)
+[2018.11.27-16.44.38:964][  0]LogTexture:Display: Building textures: S_KHinge (BGRA8)
+[2018.11.27-16.44.38:969][  0]LogTexture:Display: Building textures: S_KPrismatic (BGRA8)
+[2018.11.27-16.44.38:980][  0]LogTexture:Display: Building textures: S_LightError (BGRA8)
+[2018.11.27-16.44.38:990][  0]LogTexture:Display: Building textures: T_Loft_Spline (AutoDXT)
+[2018.11.27-16.44.39:009][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2018.11.27-16.44.39:079][  0]LogTexture:Display: Building textures: DefaultNormal (BC5)
+[2018.11.27-16.44.39:212][  0]LogTexture:Display: Building textures: Grid_N (BC5)
+[2018.11.27-16.44.39:253][  0]LogTexture:Display: Building textures: PaperDiffuse (AutoDXT)
+[2018.11.27-16.44.39:431][  0]LogTexture:Display: Building textures: PaperNormal (BC5)
+[2018.11.27-16.44.39:500][  0]LogTexture:Display: Building textures: Texture2D_28 (AutoDXT)
+[2018.11.27-16.44.39:514][  0]LogTexture:Display: Building textures: Texture2D_29 (AutoDXT)
+[2018.11.27-16.44.39:524][  0]LogTexture:Display: Building textures: StreamingPauseIcon (AutoDXT)
+[2018.11.27-16.44.39:527][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2018.11.27-16.44.39:553][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.27-16.44.39:553][  0]LogCook:Display: Mobile HDR setting 0
+[2018.11.27-16.44.39:824][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/vrWTrigo9mult/Content/' took 0.02s
+[2018.11.27-16.44.39:824][  0]LogTexture:Display: Building textures: Countdown (AutoDXT)
+[2018.11.27-16.44.39:833][  0]LogTexture:Display: Building textures: RecordingIndicator (AutoDXT)
+[2018.11.27-16.44.39:918][  0]LogTexture:Display: Building textures: DefaultAlphaTexture (BGRA8)
+[2018.11.27-16.44.39:942][  0]SourceControl: Info Source control is disabled
+[2018.11.27-16.44.39:943][  0]Cmd: MAP LOAD FILE="D:/UnrealProjects/vrWTrigo9mult/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.27-16.44.39:997][  0]LightingResults: New page: Lighting Build
+[2018.11.27-16.44.40:007][  0]MapCheck: New page: Map Check
+[2018.11.27-16.44.40:007][  0]LightingResults: New page: Lighting Build
+[2018.11.27-16.44.47:263][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2018.11.27-16.44.47:486][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2018.11.27-16.44.47:507][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2018.11.27-16.44.47:587][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2018.11.27-16.44.47:698][  0]LogTexture:Display: Building textures: T_Sky_Clouds_M (BGRA8)
+[2018.11.27-16.44.48:183][  0]LogTexture:Display: Building textures: T_Sky_Stars (AutoDXT)
+[2018.11.27-16.44.48:657][  0]LogTexture:Display: Building textures: T_Sky_Blue (AutoDXT)
+[2018.11.27-16.44.49:973][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2018.11.27-16.44.49:994][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2018.11.27-16.44.49:998][  0]LogStaticMesh: Building static mesh atrig5_01abdomen_1...
+[2018.11.27-16.44.53:494][  0]LogStaticMesh: Built static mesh [3.50s] /Game/Geometry/Trigonopterus_a5/atrig5_01abdomen_1.atrig5_01abdomen_1
+[2018.11.27-16.44.53:501][  0]LogStaticMesh: Building static mesh atrig5_02abdomen_3...
+[2018.11.27-16.44.53:703][  0]LogStaticMesh: Built static mesh [0.20s] /Game/Geometry/Trigonopterus_a5/atrig5_02abdomen_3.atrig5_02abdomen_3
+[2018.11.27-16.44.53:704][  0]LogStaticMesh: Building static mesh atrig5_03abdomen_4...
+[2018.11.27-16.44.53:835][  0]LogStaticMesh: Built static mesh [0.13s] /Game/Geometry/Trigonopterus_a5/atrig5_03abdomen_4.atrig5_03abdomen_4
+[2018.11.27-16.44.53:835][  0]LogStaticMesh: Building static mesh atrig5_04abdomen_5...
+[2018.11.27-16.44.54:027][  0]LogStaticMesh: Built static mesh [0.19s] /Game/Geometry/Trigonopterus_a5/atrig5_04abdomen_5.atrig5_04abdomen_5
+[2018.11.27-16.44.54:028][  0]LogStaticMesh: Building static mesh atrig5_05eyes...
+[2018.11.27-16.44.54:125][  0]LogStaticMesh: Built static mesh [0.10s] /Game/Geometry/Trigonopterus_a5/atrig5_05eyes.atrig5_05eyes
+[2018.11.27-16.44.54:125][  0]LogStaticMesh: Building static mesh atrig5_06head_capsu...
+[2018.11.27-16.44.58:058][  0]LogStaticMesh: Built static mesh [3.93s] /Game/Geometry/Trigonopterus_a5/atrig5_06head_capsu.atrig5_06head_capsu
+[2018.11.27-16.44.58:061][  0]LogStaticMesh: Building static mesh atrig5_07left_flage...
+[2018.11.27-16.44.58:166][  0]LogStaticMesh: Built static mesh [0.11s] /Game/Geometry/Trigonopterus_a5/atrig5_07left_flage.atrig5_07left_flage
+[2018.11.27-16.44.58:167][  0]LogStaticMesh: Building static mesh atrig5_08left_mes40...
+[2018.11.27-16.44.58:224][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Geometry/Trigonopterus_a5/atrig5_08left_mes40.atrig5_08left_mes40
+[2018.11.27-16.44.58:224][  0]LogStaticMesh: Building static mesh atrig5_09left_mes41...
+[2018.11.27-16.44.58:281][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Geometry/Trigonopterus_a5/atrig5_09left_mes41.atrig5_09left_mes41
+[2018.11.27-16.44.58:282][  0]LogStaticMesh: Building static mesh atrig5_10left_mes42...
+[2018.11.27-16.44.58:388][  0]LogStaticMesh: Built static mesh [0.11s] /Game/Geometry/Trigonopterus_a5/atrig5_10left_mes42.atrig5_10left_mes42
+[2018.11.27-16.44.58:388][  0]LogStaticMesh: Building static mesh atrig5_11left_mes43...
+[2018.11.27-16.44.58:396][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_11left_mes43.atrig5_11left_mes43
+[2018.11.27-16.44.58:397][  0]LogStaticMesh: Building static mesh atrig5_12left_mes45...
+[2018.11.27-16.44.58:403][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_12left_mes45.atrig5_12left_mes45
+[2018.11.27-16.44.58:404][  0]LogStaticMesh: Building static mesh atrig5_13left_mes46...
+[2018.11.27-16.44.59:016][  0]LogStaticMesh: Built static mesh [0.61s] /Game/Geometry/Trigonopterus_a5/atrig5_13left_mes46.atrig5_13left_mes46
+[2018.11.27-16.44.59:017][  0]LogStaticMesh: Building static mesh atrig5_14left_mes47...
+[2018.11.27-16.44.59:146][  0]LogStaticMesh: Built static mesh [0.13s] /Game/Geometry/Trigonopterus_a5/atrig5_14left_mes47.atrig5_14left_mes47
+[2018.11.27-16.44.59:146][  0]LogStaticMesh: Building static mesh atrig5_15left_mesoc...
+[2018.11.27-16.45.00:459][  0]LogStaticMesh: Built static mesh [1.31s] /Game/Geometry/Trigonopterus_a5/atrig5_15left_mesoc.atrig5_15left_mesoc
+[2018.11.27-16.45.00:461][  0]LogStaticMesh: Building static mesh atrig5_16left_mesof...
+[2018.11.27-16.45.03:716][  0]LogStaticMesh: Built static mesh [3.25s] /Game/Geometry/Trigonopterus_a5/atrig5_16left_mesof.atrig5_16left_mesof
+[2018.11.27-16.45.03:719][  0]LogStaticMesh: Building static mesh atrig5_17left_mesop...
+[2018.11.27-16.45.03:737][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Trigonopterus_a5/atrig5_17left_mesop.atrig5_17left_mesop
+[2018.11.27-16.45.03:738][  0]LogStaticMesh: Building static mesh atrig5_18left_met79...
+[2018.11.27-16.45.03:800][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Geometry/Trigonopterus_a5/atrig5_18left_met79.atrig5_18left_met79
+[2018.11.27-16.45.03:801][  0]LogStaticMesh: Building static mesh atrig5_19left_met80...
+[2018.11.27-16.45.03:851][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Geometry/Trigonopterus_a5/atrig5_19left_met80.atrig5_19left_met80
+[2018.11.27-16.45.03:851][  0]LogStaticMesh: Building static mesh atrig5_20left_met81...
+[2018.11.27-16.45.03:923][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Geometry/Trigonopterus_a5/atrig5_20left_met81.atrig5_20left_met81
+[2018.11.27-16.45.03:924][  0]LogStaticMesh: Building static mesh atrig5_21left_met82...
+[2018.11.27-16.45.03:934][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_21left_met82.atrig5_21left_met82
+[2018.11.27-16.45.03:934][  0]LogStaticMesh: Building static mesh atrig5_22left_met84...
+[2018.11.27-16.45.03:942][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_22left_met84.atrig5_22left_met84
+[2018.11.27-16.45.03:942][  0]LogStaticMesh: Building static mesh atrig5_23left_met85...
+[2018.11.27-16.45.04:497][  0]LogStaticMesh: Built static mesh [0.55s] /Game/Geometry/Trigonopterus_a5/atrig5_23left_met85.atrig5_23left_met85
+[2018.11.27-16.45.04:499][  0]LogStaticMesh: Building static mesh atrig5_24left_met86...
+[2018.11.27-16.45.08:870][  0]LogStaticMesh: Built static mesh [4.37s] /Game/Geometry/Trigonopterus_a5/atrig5_24left_met86.atrig5_24left_met86
+[2018.11.27-16.45.08:873][  0]LogStaticMesh: Building static mesh atrig5_25left_met87...
+[2018.11.27-16.45.09:035][  0]LogStaticMesh: Built static mesh [0.16s] /Game/Geometry/Trigonopterus_a5/atrig5_25left_met87.atrig5_25left_met87
+[2018.11.27-16.45.09:036][  0]LogStaticMesh: Building static mesh atrig5_26left_metac...
+[2018.11.27-16.45.09:865][  0]LogStaticMesh: Built static mesh [0.83s] /Game/Geometry/Trigonopterus_a5/atrig5_26left_metac.atrig5_26left_metac
+[2018.11.27-16.45.09:867][  0]LogStaticMesh: Building static mesh atrig5_27left_metap...
+[2018.11.27-16.45.09:887][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Trigonopterus_a5/atrig5_27left_metap.atrig5_27left_metap
+[2018.11.27-16.45.09:887][  0]LogStaticMesh: Building static mesh atrig5_28left_pedic...
+[2018.11.27-16.45.09:900][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_28left_pedic.atrig5_28left_pedic
+[2018.11.27-16.45.09:901][  0]LogStaticMesh: Building static mesh atrig5_29left_pro18...
+[2018.11.27-16.45.09:931][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/Trigonopterus_a5/atrig5_29left_pro18.atrig5_29left_pro18
+[2018.11.27-16.45.09:932][  0]LogStaticMesh: Building static mesh atrig5_30left_pro19...
+[2018.11.27-16.45.09:999][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Geometry/Trigonopterus_a5/atrig5_30left_pro19.atrig5_30left_pro19
+[2018.11.27-16.45.09:999][  0]LogStaticMesh: Building static mesh atrig5_31left_pro20...
+[2018.11.27-16.45.10:006][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_31left_pro20.atrig5_31left_pro20
+[2018.11.27-16.45.10:006][  0]LogStaticMesh: Building static mesh atrig5_32left_pro22...
+[2018.11.27-16.45.10:009][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Trigonopterus_a5/atrig5_32left_pro22.atrig5_32left_pro22
+[2018.11.27-16.45.10:010][  0]LogStaticMesh: Building static mesh atrig5_33left_proco...
+[2018.11.27-16.45.10:524][  0]LogStaticMesh: Built static mesh [0.51s] /Game/Geometry/Trigonopterus_a5/atrig5_33left_proco.atrig5_33left_proco
+[2018.11.27-16.45.10:526][  0]LogStaticMesh: Building static mesh atrig5_34left_profe...
+[2018.11.27-16.45.12:371][  0]LogStaticMesh: Built static mesh [1.85s] /Game/Geometry/Trigonopterus_a5/atrig5_34left_profe.atrig5_34left_profe
+[2018.11.27-16.45.12:374][  0]LogStaticMesh: Building static mesh atrig5_35left_propr...
+[2018.11.27-16.45.12:402][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/Trigonopterus_a5/atrig5_35left_propr.atrig5_35left_propr
+[2018.11.27-16.45.12:403][  0]LogStaticMesh: Building static mesh atrig5_36left_prota...
+[2018.11.27-16.45.12:471][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Geometry/Trigonopterus_a5/atrig5_36left_prota.atrig5_36left_prota
+[2018.11.27-16.45.12:471][  0]LogStaticMesh: Building static mesh atrig5_37left_proti...
+[2018.11.27-16.45.12:966][  0]LogStaticMesh: Built static mesh [0.50s] /Game/Geometry/Trigonopterus_a5/atrig5_37left_proti.atrig5_37left_proti
+[2018.11.27-16.45.12:968][  0]LogStaticMesh: Building static mesh atrig5_38left_protr...
+[2018.11.27-16.45.13:100][  0]LogStaticMesh: Built static mesh [0.13s] /Game/Geometry/Trigonopterus_a5/atrig5_38left_protr.atrig5_38left_protr
+[2018.11.27-16.45.13:100][  0]LogStaticMesh: Building static mesh atrig5_39left_scape...
+[2018.11.27-16.45.13:125][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Trigonopterus_a5/atrig5_39left_scape.atrig5_39left_scape
+[2018.11.27-16.45.13:126][  0]LogStaticMesh: Building static mesh atrig5_40metathor61...
+[2018.11.27-16.45.16:424][  0]LogStaticMesh: Built static mesh [3.30s] /Game/Geometry/Trigonopterus_a5/atrig5_40metathor61.atrig5_40metathor61
+[2018.11.27-16.45.16:428][  0]LogStaticMesh: Building static mesh atrig5_41right_flag...
+[2018.11.27-16.45.16:483][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Geometry/Trigonopterus_a5/atrig5_41right_flag.atrig5_41right_flag
+[2018.11.27-16.45.16:484][  0]LogStaticMesh: Building static mesh atrig5_42right_me50...
+[2018.11.27-16.45.19:786][  0]LogStaticMesh: Built static mesh [3.30s] /Game/Geometry/Trigonopterus_a5/atrig5_42right_me50.atrig5_42right_me50
+[2018.11.27-16.45.19:791][  0]LogStaticMesh: Building static mesh atrig5_43right_me52...
+[2018.11.27-16.45.19:843][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Geometry/Trigonopterus_a5/atrig5_43right_me52.atrig5_43right_me52
+[2018.11.27-16.45.19:843][  0]LogStaticMesh: Building static mesh atrig5_44right_me53...
+[2018.11.27-16.45.19:885][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/Trigonopterus_a5/atrig5_44right_me53.atrig5_44right_me53
+[2018.11.27-16.45.19:885][  0]LogStaticMesh: Building static mesh atrig5_45right_me54...
+[2018.11.27-16.45.19:950][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Geometry/Trigonopterus_a5/atrig5_45right_me54.atrig5_45right_me54
+[2018.11.27-16.45.19:951][  0]LogStaticMesh: Building static mesh atrig5_46right_me55...
+[2018.11.27-16.45.19:958][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_46right_me55.atrig5_46right_me55
+[2018.11.27-16.45.19:958][  0]LogStaticMesh: Building static mesh atrig5_47right_me56...
+[2018.11.27-16.45.19:980][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Trigonopterus_a5/atrig5_47right_me56.atrig5_47right_me56
+[2018.11.27-16.45.19:981][  0]LogStaticMesh: Building static mesh atrig5_48right_me57...
+[2018.11.27-16.45.19:986][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_48right_me57.atrig5_48right_me57
+[2018.11.27-16.45.19:986][  0]LogStaticMesh: Building static mesh atrig5_49right_me58...
+[2018.11.27-16.45.20:331][  0]LogStaticMesh: Built static mesh [0.35s] /Game/Geometry/Trigonopterus_a5/atrig5_49right_me58.atrig5_49right_me58
+[2018.11.27-16.45.20:332][  0]LogStaticMesh: Building static mesh atrig5_50right_me59...
+[2018.11.27-16.45.20:434][  0]LogStaticMesh: Built static mesh [0.10s] /Game/Geometry/Trigonopterus_a5/atrig5_50right_me59.atrig5_50right_me59
+[2018.11.27-16.45.20:434][  0]LogStaticMesh: Building static mesh atrig5_51right_me66...
+[2018.11.27-16.45.20:498][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Geometry/Trigonopterus_a5/atrig5_51right_me66.atrig5_51right_me66
+[2018.11.27-16.45.20:498][  0]LogStaticMesh: Building static mesh atrig5_52right_me67...
+[2018.11.27-16.45.20:570][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Geometry/Trigonopterus_a5/atrig5_52right_me67.atrig5_52right_me67
+[2018.11.27-16.45.20:571][  0]LogStaticMesh: Building static mesh atrig5_53right_me68...
+[2018.11.27-16.45.20:648][  0]LogStaticMesh: Built static mesh [0.08s] /Game/Geometry/Trigonopterus_a5/atrig5_53right_me68.atrig5_53right_me68
+[2018.11.27-16.45.20:648][  0]LogStaticMesh: Building static mesh atrig5_54right_me69...
+[2018.11.27-16.45.20:659][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_54right_me69.atrig5_54right_me69
+[2018.11.27-16.45.20:659][  0]LogStaticMesh: Building static mesh atrig5_55right_me70...
+[2018.11.27-16.45.20:681][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Trigonopterus_a5/atrig5_55right_me70.atrig5_55right_me70
+[2018.11.27-16.45.20:681][  0]LogStaticMesh: Building static mesh atrig5_56right_me71...
+[2018.11.27-16.45.20:690][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_56right_me71.atrig5_56right_me71
+[2018.11.27-16.45.20:690][  0]LogStaticMesh: Building static mesh atrig5_57right_me72...
+[2018.11.27-16.45.21:504][  0]LogStaticMesh: Built static mesh [0.81s] /Game/Geometry/Trigonopterus_a5/atrig5_57right_me72.atrig5_57right_me72
+[2018.11.27-16.45.21:506][  0]LogStaticMesh: Building static mesh atrig5_58right_me73...
+[2018.11.27-16.45.23:654][  0]LogStaticMesh: Built static mesh [2.15s] /Game/Geometry/Trigonopterus_a5/atrig5_58right_me73.atrig5_58right_me73
+[2018.11.27-16.45.23:657][  0]LogStaticMesh: Building static mesh atrig5_59right_me74...
+[2018.11.27-16.45.23:805][  0]LogStaticMesh: Built static mesh [0.15s] /Game/Geometry/Trigonopterus_a5/atrig5_59right_me74.atrig5_59right_me74
+[2018.11.27-16.45.23:805][  0]LogStaticMesh: Building static mesh atrig5_60right_meso...
+[2018.11.27-16.45.24:824][  0]LogStaticMesh: Built static mesh [1.02s] /Game/Geometry/Trigonopterus_a5/atrig5_60right_meso.atrig5_60right_meso
+[2018.11.27-16.45.24:826][  0]LogStaticMesh: Building static mesh atrig5_61right_meta...
+[2018.11.27-16.45.25:803][  0]LogStaticMesh: Built static mesh [0.98s] /Game/Geometry/Trigonopterus_a5/atrig5_61right_meta.atrig5_61right_meta
+[2018.11.27-16.45.25:805][  0]LogStaticMesh: Building static mesh atrig5_62right_pedi...
+[2018.11.27-16.45.25:822][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Trigonopterus_a5/atrig5_62right_pedi.atrig5_62right_pedi
+[2018.11.27-16.45.25:823][  0]LogStaticMesh: Building static mesh atrig5_63right_pr26...
+[2018.11.27-16.45.26:374][  0]LogStaticMesh: Built static mesh [0.55s] /Game/Geometry/Trigonopterus_a5/atrig5_63right_pr26.atrig5_63right_pr26
+[2018.11.27-16.45.26:375][  0]LogStaticMesh: Building static mesh atrig5_64right_pr27...
+[2018.11.27-16.45.26:422][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Geometry/Trigonopterus_a5/atrig5_64right_pr27.atrig5_64right_pr27
+[2018.11.27-16.45.26:423][  0]LogStaticMesh: Building static mesh atrig5_65right_pr28...
+[2018.11.27-16.45.26:463][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/Trigonopterus_a5/atrig5_65right_pr28.atrig5_65right_pr28
+[2018.11.27-16.45.26:463][  0]LogStaticMesh: Building static mesh atrig5_66right_pr29...
+[2018.11.27-16.45.26:538][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Geometry/Trigonopterus_a5/atrig5_66right_pr29.atrig5_66right_pr29
+[2018.11.27-16.45.26:538][  0]LogStaticMesh: Building static mesh atrig5_67right_pr30...
+[2018.11.27-16.45.26:544][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_67right_pr30.atrig5_67right_pr30
+[2018.11.27-16.45.26:544][  0]LogStaticMesh: Building static mesh atrig5_68right_pr32...
+[2018.11.27-16.45.26:550][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Trigonopterus_a5/atrig5_68right_pr32.atrig5_68right_pr32
+[2018.11.27-16.45.26:550][  0]LogStaticMesh: Building static mesh atrig5_69right_proc...
+[2018.11.27-16.45.27:180][  0]LogStaticMesh: Built static mesh [0.63s] /Game/Geometry/Trigonopterus_a5/atrig5_69right_proc.atrig5_69right_proc
+[2018.11.27-16.45.27:183][  0]LogStaticMesh: Building static mesh atrig5_70right_prof...
+[2018.11.27-16.45.28:917][  0]LogStaticMesh: Built static mesh [1.74s] /Game/Geometry/Trigonopterus_a5/atrig5_70right_prof.atrig5_70right_prof
+[2018.11.27-16.45.28:920][  0]LogStaticMesh: Building static mesh atrig5_71right_prop...
+[2018.11.27-16.45.28:939][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Trigonopterus_a5/atrig5_71right_prop.atrig5_71right_prop
+[2018.11.27-16.45.28:939][  0]LogStaticMesh: Building static mesh atrig5_72right_prot...
+[2018.11.27-16.45.29:089][  0]LogStaticMesh: Built static mesh [0.15s] /Game/Geometry/Trigonopterus_a5/atrig5_72right_prot.atrig5_72right_prot
+[2018.11.27-16.45.29:089][  0]LogStaticMesh: Building static mesh atrig5_73right_scap...
+[2018.11.27-16.45.29:117][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/Trigonopterus_a5/atrig5_73right_scap.atrig5_73right_scap
+[2018.11.27-16.45.29:118][  0]LogStaticMesh: Building static mesh atrig5_74thorax_1...
+[2018.11.27-16.45.32:991][  0]LogStaticMesh: Built static mesh [3.87s] /Game/Geometry/Trigonopterus_a5/atrig5_74thorax_1.atrig5_74thorax_1
+[2018.11.27-16.45.32:999][  0]LogStaticMesh: Building static mesh atrig5_75thorax_2_front...
+[2018.11.27-16.45.37:308][  0]LogStaticMesh: Built static mesh [4.31s] /Game/Geometry/Trigonopterus_a5/atrig5_75thorax_2_front.atrig5_75thorax_2_front
+[2018.11.27-16.45.37:314][  0]LogStaticMesh: Building static mesh atrig5_76thorax_3_in...
+[2018.11.27-16.45.42:964][  0]LogStaticMesh: Built static mesh [5.65s] /Game/Geometry/Trigonopterus_a5/atrig5_76thorax_3_in.atrig5_76thorax_3_in
+[2018.11.27-16.45.42:967][  0]LogStaticMesh: Building static mesh blender_animtest...
+[2018.11.27-16.45.42:968][  0]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualRealityBP/Blueprints/blender_animtest.blender_animtest
+[2018.11.27-16.45.42:969][  0]LogStaticMesh: Building static mesh blender_animtest...
+[2018.11.27-16.45.42:969][  0]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualRealityBP/blender_animtest.blender_animtest
+[2018.11.27-16.45.42:970][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds-blender...
+[2018.11.27-16.46.17:672][  0]LogStaticMesh: Built static mesh [34.70s] /Game/VirtualReality/Meshes/Trigonopterus_vandekampi_2013_01_3ds-blender.Trigonopterus_vandekampi_2013_01_3ds-blender
+[2018.11.27-16.46.17:767][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_proco...
+[2018.11.27-16.46.18:562][  0]LogStaticMesh: Built static mesh [0.80s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_proco.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_proco
+[2018.11.27-16.46.18:565][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_1_...
+[2018.11.27-16.46.21:105][  0]LogStaticMesh: Built static mesh [2.54s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_1_.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_1_
+[2018.11.27-16.46.21:108][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_3...
+[2018.11.27-16.46.21:310][  0]LogStaticMesh: Built static mesh [0.20s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_3.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_3
+[2018.11.27-16.46.21:311][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_4...
+[2018.11.27-16.46.21:432][  0]LogStaticMesh: Built static mesh [0.12s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_4.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_4
+[2018.11.27-16.46.21:432][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_5...
+[2018.11.27-16.46.21:600][  0]LogStaticMesh: Built static mesh [0.17s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_5.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_abdomen_5
+[2018.11.27-16.46.21:602][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_eyes...
+[2018.11.27-16.46.21:701][  0]LogStaticMesh: Built static mesh [0.10s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_eyes.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_eyes
+[2018.11.27-16.46.21:702][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_head_capsu...
+[2018.11.27-16.46.24:701][  0]LogStaticMesh: Built static mesh [3.00s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_head_capsu.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_head_capsu
+[2018.11.27-16.46.24:704][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_flage...
+[2018.11.27-16.46.24:795][  0]LogStaticMesh: Built static mesh [0.09s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_flage.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_flage
+[2018.11.27-16.46.24:796][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes40...
+[2018.11.27-16.46.24:857][  0]LogStaticMesh: Built static mesh [0.06s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes40.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes40
+[2018.11.27-16.46.24:857][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes41...
+[2018.11.27-16.46.24:903][  0]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes41.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes41
+[2018.11.27-16.46.24:903][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes42...
+[2018.11.27-16.46.24:976][  0]LogStaticMesh: Built static mesh [0.07s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes42.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes42
+[2018.11.27-16.46.24:977][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes43...
+[2018.11.27-16.46.24:982][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes43.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes43
+[2018.11.27-16.46.24:983][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes45...
+[2018.11.27-16.46.24:988][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes45.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes45
+[2018.11.27-16.46.24:989][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes46...
+[2018.11.27-16.46.25:349][  0]LogStaticMesh: Built static mesh [0.36s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes46.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes46
+[2018.11.27-16.46.25:350][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes47...
+[2018.11.27-16.46.25:498][  0]LogStaticMesh: Built static mesh [0.15s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes47.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mes47
+[2018.11.27-16.46.25:498][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesoc...
+[2018.11.27-16.46.26:510][  0]LogStaticMesh: Built static mesh [1.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesoc.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesoc
+[2018.11.27-16.46.26:512][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesof...
+[2018.11.27-16.46.29:654][  0]LogStaticMesh: Built static mesh [3.14s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesof.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesof
+[2018.11.27-16.46.29:658][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesop...
+[2018.11.27-16.46.29:677][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesop.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_mesop
+[2018.11.27-16.46.29:677][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met79...
+[2018.11.27-16.46.29:744][  0]LogStaticMesh: Built static mesh [0.07s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met79.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met79
+[2018.11.27-16.46.29:744][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met80...
+[2018.11.27-16.46.29:845][  0]LogStaticMesh: Built static mesh [0.10s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met80.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met80
+[2018.11.27-16.46.29:846][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met81...
+[2018.11.27-16.46.29:926][  0]LogStaticMesh: Built static mesh [0.08s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met81.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met81
+[2018.11.27-16.46.29:928][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met82...
+[2018.11.27-16.46.29:940][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met82.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met82
+[2018.11.27-16.46.29:941][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met84...
+[2018.11.27-16.46.29:951][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met84.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met84
+[2018.11.27-16.46.29:952][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met85...
+[2018.11.27-16.46.30:611][  0]LogStaticMesh: Built static mesh [0.66s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met85.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met85
+[2018.11.27-16.46.30:613][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met86...
+[2018.11.27-16.46.35:183][  0]LogStaticMesh: Built static mesh [4.57s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met86.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met86
+[2018.11.27-16.46.35:187][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met87...
+[2018.11.27-16.46.35:361][  0]LogStaticMesh: Built static mesh [0.17s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met87.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_met87
+[2018.11.27-16.46.35:362][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_metac...
+[2018.11.27-16.46.36:275][  0]LogStaticMesh: Built static mesh [0.91s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_metac.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_metac
+[2018.11.27-16.46.36:277][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_metap...
+[2018.11.27-16.46.36:298][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_metap.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_metap
+[2018.11.27-16.46.36:298][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pedic...
+[2018.11.27-16.46.36:314][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pedic.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pedic
+[2018.11.27-16.46.36:314][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro18...
+[2018.11.27-16.46.36:354][  0]LogStaticMesh: Built static mesh [0.04s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro18.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro18
+[2018.11.27-16.46.36:355][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro19...
+[2018.11.27-16.46.36:480][  0]LogStaticMesh: Built static mesh [0.13s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro19.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro19
+[2018.11.27-16.46.36:481][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro20...
+[2018.11.27-16.46.36:489][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro20.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro20
+[2018.11.27-16.46.36:489][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro22...
+[2018.11.27-16.46.36:493][  0]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro22.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_pro22
+[2018.11.27-16.46.36:493][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_profe...
+[2018.11.27-16.46.38:276][  0]LogStaticMesh: Built static mesh [1.78s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_profe.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_profe
+[2018.11.27-16.46.38:279][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_propr...
+[2018.11.27-16.46.38:299][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_propr.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_propr
+[2018.11.27-16.46.38:299][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_prota...
+[2018.11.27-16.46.38:394][  0]LogStaticMesh: Built static mesh [0.09s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_prota.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_prota
+[2018.11.27-16.46.38:394][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_proti...
+[2018.11.27-16.46.38:870][  0]LogStaticMesh: Built static mesh [0.48s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_proti.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_proti
+[2018.11.27-16.46.38:871][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_protr...
+[2018.11.27-16.46.39:000][  0]LogStaticMesh: Built static mesh [0.13s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_protr.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_protr
+[2018.11.27-16.46.39:000][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_scape...
+[2018.11.27-16.46.39:029][  0]LogStaticMesh: Built static mesh [0.03s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_scape.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_left_scape
+[2018.11.27-16.46.39:029][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_metathor61...
+[2018.11.27-16.46.42:248][  0]LogStaticMesh: Built static mesh [3.22s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_metathor61.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_metathor61
+[2018.11.27-16.46.42:251][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_flag...
+[2018.11.27-16.46.42:304][  0]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_flag.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_flag
+[2018.11.27-16.46.42:304][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me50...
+[2018.11.27-16.46.45:409][  0]LogStaticMesh: Built static mesh [3.11s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me50.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me50
+[2018.11.27-16.46.45:413][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me52...
+[2018.11.27-16.46.45:462][  0]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me52.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me52
+[2018.11.27-16.46.45:463][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me53...
+[2018.11.27-16.46.45:510][  0]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me53.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me53
+[2018.11.27-16.46.45:511][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me54...
+[2018.11.27-16.46.45:623][  0]LogStaticMesh: Built static mesh [0.11s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me54.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me54
+[2018.11.27-16.46.45:624][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me55...
+[2018.11.27-16.46.45:630][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me55.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me55
+[2018.11.27-16.46.45:630][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me56...
+[2018.11.27-16.46.45:655][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me56.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me56
+[2018.11.27-16.46.45:655][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me57...
+[2018.11.27-16.46.45:661][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me57.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me57
+[2018.11.27-16.46.45:661][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me58...
+[2018.11.27-16.46.45:999][  0]LogStaticMesh: Built static mesh [0.34s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me58.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me58
+[2018.11.27-16.46.46:001][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me59...
+[2018.11.27-16.46.46:139][  0]LogStaticMesh: Built static mesh [0.14s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me59.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me59
+[2018.11.27-16.46.46:140][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me66...
+[2018.11.27-16.46.46:204][  0]LogStaticMesh: Built static mesh [0.07s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me66.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me66
+[2018.11.27-16.46.46:205][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me67...
+[2018.11.27-16.46.46:252][  0]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me67.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me67
+[2018.11.27-16.46.46:253][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me68...
+[2018.11.27-16.46.46:342][  0]LogStaticMesh: Built static mesh [0.09s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me68.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me68
+[2018.11.27-16.46.46:343][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me69...
+[2018.11.27-16.46.46:352][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me69.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me69
+[2018.11.27-16.46.46:352][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me70...
+[2018.11.27-16.46.46:373][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me70.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me70
+[2018.11.27-16.46.46:374][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me71...
+[2018.11.27-16.46.46:383][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me71.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me71
+[2018.11.27-16.46.46:383][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me72...
+[2018.11.27-16.46.47:121][  0]LogStaticMesh: Built static mesh [0.74s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me72.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me72
+[2018.11.27-16.46.47:123][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me73...
+[2018.11.27-16.46.49:193][  0]LogStaticMesh: Built static mesh [2.07s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me73.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me73
+[2018.11.27-16.46.49:195][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me74...
+[2018.11.27-16.46.49:372][  0]LogStaticMesh: Built static mesh [0.18s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me74.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_me74
+[2018.11.27-16.46.49:372][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_meso...
+[2018.11.27-16.46.50:411][  0]LogStaticMesh: Built static mesh [1.04s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_meso.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_meso
+[2018.11.27-16.46.50:412][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_meta...
+[2018.11.27-16.46.51:266][  0]LogStaticMesh: Built static mesh [0.85s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_meta.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_meta
+[2018.11.27-16.46.51:269][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pedi...
+[2018.11.27-16.46.51:284][  0]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pedi.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pedi
+[2018.11.27-16.46.51:285][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr26...
+[2018.11.27-16.46.51:741][  0]LogStaticMesh: Built static mesh [0.46s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr26.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr26
+[2018.11.27-16.46.51:742][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr27...
+[2018.11.27-16.46.51:826][  0]LogStaticMesh: Built static mesh [0.08s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr27.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr27
+[2018.11.27-16.46.51:826][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr28...
+[2018.11.27-16.46.51:860][  0]LogStaticMesh: Built static mesh [0.03s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr28.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr28
+[2018.11.27-16.46.51:860][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr29...
+[2018.11.27-16.46.51:929][  0]LogStaticMesh: Built static mesh [0.07s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr29.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr29
+[2018.11.27-16.46.51:929][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr30...
+[2018.11.27-16.46.51:935][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr30.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr30
+[2018.11.27-16.46.51:936][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr32...
+[2018.11.27-16.46.51:941][  0]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr32.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_pr32
+[2018.11.27-16.46.51:942][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_proc...
+[2018.11.27-16.46.52:519][  0]LogStaticMesh: Built static mesh [0.58s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_proc.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_proc
+[2018.11.27-16.46.52:521][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prof...
+[2018.11.27-16.46.54:325][  0]LogStaticMesh: Built static mesh [1.80s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prof.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prof
+[2018.11.27-16.46.54:329][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prop...
+[2018.11.27-16.46.54:357][  0]LogStaticMesh: Built static mesh [0.03s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prop.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prop
+[2018.11.27-16.46.54:357][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prot...
+[2018.11.27-16.46.54:557][  0]LogStaticMesh: Built static mesh [0.20s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prot.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_prot
+[2018.11.27-16.46.54:558][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_scap...
+[2018.11.27-16.46.54:585][  0]LogStaticMesh: Built static mesh [0.03s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_scap.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_right_scap
+[2018.11.27-16.46.54:585][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01...
+[2018.11.27-16.46.57:811][  0]LogStaticMesh: Built static mesh [3.23s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01
+[2018.11.27-16.46.57:815][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01104...
+[2018.11.27-16.47.03:985][  0]LogStaticMesh: Built static mesh [6.17s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01104.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01104
+[2018.11.27-16.47.03:989][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01106...
+[2018.11.27-16.47.06:749][  0]LogStaticMesh: Built static mesh [2.76s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01106.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub01106
+[2018.11.27-16.47.06:753][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02...
+[2018.11.27-16.47.10:013][  0]LogStaticMesh: Built static mesh [3.26s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02
+[2018.11.27-16.47.10:017][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02105...
+[2018.11.27-16.47.10:381][  0]LogStaticMesh: Built static mesh [0.36s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02105.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02105
+[2018.11.27-16.47.10:382][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02107...
+[2018.11.27-16.47.13:038][  0]LogStaticMesh: Built static mesh [2.66s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02107.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub02107
+[2018.11.27-16.47.13:041][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub03...
+[2018.11.27-16.47.13:582][  0]LogStaticMesh: Built static mesh [0.54s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub03.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub03
+[2018.11.27-16.47.13:583][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub03108...
+[2018.11.27-16.47.16:448][  0]LogStaticMesh: Built static mesh [2.87s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub03108.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub03108
+[2018.11.27-16.47.16:452][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub04...
+[2018.11.27-16.47.19:041][  0]LogStaticMesh: Built static mesh [2.59s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub04.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub04
+[2018.11.27-16.47.19:046][  0]LogStaticMesh: Building static mesh Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub05...
+[2018.11.27-16.47.21:278][  0]LogStaticMesh: Built static mesh [2.23s] /Game/VirtualReality/Meshes/trigonopterus2/Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub05.Trigonopterus_vandekampi_2013_01_3ds_cc+indivorigin_blend_sub05
+[2018.11.27-16.47.21:281][  0]LogStaticMesh: Building static mesh species1_male_gaster...
+[2018.11.27-16.49.05:142][  0]LogStaticMesh: Built static mesh [103.86s] /Game/wespe-parts/species1_male_gaster.species1_male_gaster
+[2018.11.27-16.49.05:155][  0]LogStaticMesh: Building static mesh species1_male_head...
+[2018.11.27-16.49.18:342][  0]LogStaticMesh: Built static mesh [13.19s] /Game/wespe-parts/species1_male_head.species1_male_head
+[2018.11.27-16.49.18:352][  0]LogStaticMesh: Building static mesh species1_male_left_wings...
+[2018.11.27-16.49.22:701][  0]LogStaticMesh: Built static mesh [4.35s] /Game/wespe-parts/species1_male_left_wings.species1_male_left_wings
+[2018.11.27-16.49.22:709][  0]LogStaticMesh: Building static mesh species1_male_mandibles_of_last_instar_larva...
+[2018.11.27-16.49.22:738][  0]LogStaticMesh: Built static mesh [0.03s] /Game/wespe-parts/species1_male_mandibles_of_last_instar_larva.species1_male_mandibles_of_last_instar_larva
+[2018.11.27-16.49.22:739][  0]LogStaticMesh: Building static mesh species1_male_meconium...
+[2018.11.27-16.49.24:637][  0]LogStaticMesh: Built static mesh [1.90s] /Game/wespe-parts/species1_male_meconium.species1_male_meconium
+[2018.11.27-16.49.24:639][  0]LogStaticMesh: Building static mesh species1_male_mesocoxa_left...
+[2018.11.27-16.49.25:581][  0]LogStaticMesh: Built static mesh [0.94s] /Game/wespe-parts/species1_male_mesocoxa_left.species1_male_mesocoxa_left
+[2018.11.27-16.49.25:582][  0]LogStaticMesh: Building static mesh species1_male_mesocoxa_right...
+[2018.11.27-16.49.26:326][  0]LogStaticMesh: Built static mesh [0.74s] /Game/wespe-parts/species1_male_mesocoxa_right.species1_male_mesocoxa_right
+[2018.11.27-16.49.26:327][  0]LogStaticMesh: Building static mesh species1_male_mesofemur_left...
+[2018.11.27-16.49.27:213][  0]LogStaticMesh: Built static mesh [0.89s] /Game/wespe-parts/species1_male_mesofemur_left.species1_male_mesofemur_left
+[2018.11.27-16.49.27:214][  0]LogStaticMesh: Building static mesh species1_male_mesofemur_right...
+[2018.11.27-16.49.28:138][  0]LogStaticMesh: Built static mesh [0.92s] /Game/wespe-parts/species1_male_mesofemur_right.species1_male_mesofemur_right
+[2018.11.27-16.49.28:140][  0]LogStaticMesh: Building static mesh species1_male_mesopectus...
+[2018.11.27-16.49.30:866][  0]LogStaticMesh: Built static mesh [2.73s] /Game/wespe-parts/species1_male_mesopectus.species1_male_mesopectus
+[2018.11.27-16.49.30:868][  0]LogStaticMesh: Building static mesh species1_male_mesophragma...
+[2018.11.27-16.49.32:559][  0]LogStaticMesh: Built static mesh [1.69s] /Game/wespe-parts/species1_male_mesophragma.species1_male_mesophragma
+[2018.11.27-16.49.32:562][  0]LogStaticMesh: Building static mesh species1_male_mesoscutellum...
+[2018.11.27-16.49.37:168][  0]LogStaticMesh: Built static mesh [4.61s] /Game/wespe-parts/species1_male_mesoscutellum.species1_male_mesoscutellum
+[2018.11.27-16.49.37:170][  0]LogStaticMesh: Building static mesh species1_male_mesoscutum...
+[2018.11.27-16.49.43:933][  0]LogStaticMesh: Built static mesh [6.76s] /Game/wespe-parts/species1_male_mesoscutum.species1_male_mesoscutum
+[2018.11.27-16.49.43:935][  0]LogStaticMesh: Building static mesh species1_male_mesotarsus_left...
+[2018.11.27-16.49.44:300][  0]LogStaticMesh: Built static mesh [0.37s] /Game/wespe-parts/species1_male_mesotarsus_left.species1_male_mesotarsus_left
+[2018.11.27-16.49.44:301][  0]LogStaticMesh: Building static mesh species1_male_mesotarsus_right...
+[2018.11.27-16.49.44:763][  0]LogStaticMesh: Built static mesh [0.46s] /Game/wespe-parts/species1_male_mesotarsus_right.species1_male_mesotarsus_right
+[2018.11.27-16.49.44:764][  0]LogStaticMesh: Building static mesh species1_male_mesotibia_left...
+[2018.11.27-16.49.45:913][  0]LogStaticMesh: Built static mesh [1.15s] /Game/wespe-parts/species1_male_mesotibia_left.species1_male_mesotibia_left
+[2018.11.27-16.49.45:914][  0]LogStaticMesh: Building static mesh species1_male_mesotibia_right...
+[2018.11.27-16.49.46:871][  0]LogStaticMesh: Built static mesh [0.96s] /Game/wespe-parts/species1_male_mesotibia_right.species1_male_mesotibia_right
+[2018.11.27-16.49.46:872][  0]LogStaticMesh: Building static mesh species1_male_mesotrochanter_left...
+[2018.11.27-16.49.47:234][  0]LogStaticMesh: Built static mesh [0.36s] /Game/wespe-parts/species1_male_mesotrochanter_left.species1_male_mesotrochanter_left
+[2018.11.27-16.49.47:235][  0]LogStaticMesh: Building static mesh species1_male_mesotrochanter_right...
+[2018.11.27-16.49.47:719][  0]LogStaticMesh: Built static mesh [0.48s] /Game/wespe-parts/species1_male_mesotrochanter_right.species1_male_mesotrochanter_right
+[2018.11.27-16.49.47:720][  0]LogStaticMesh: Building static mesh species1_male_metacoxa_left...
+[2018.11.27-16.49.50:279][  0]LogStaticMesh: Built static mesh [2.56s] /Game/wespe-parts/species1_male_metacoxa_left.species1_male_metacoxa_left
+[2018.11.27-16.49.50:282][  0]LogStaticMesh: Building static mesh species1_male_metacoxa_right...
+[2018.11.27-16.49.52:848][  0]LogStaticMesh: Built static mesh [2.57s] /Game/wespe-parts/species1_male_metacoxa_right.species1_male_metacoxa_right
+[2018.11.27-16.49.52:857][  0]LogStaticMesh: Building static mesh species1_male_metafemur_left...
+[2018.11.27-16.49.57:606][  0]LogStaticMesh: Built static mesh [4.75s] /Game/wespe-parts/species1_male_metafemur_left.species1_male_metafemur_left
+[2018.11.27-16.49.57:608][  0]LogStaticMesh: Building static mesh species1_male_metafemur_right...
+[2018.11.27-16.49.59:769][  0]LogStaticMesh: Built static mesh [2.16s] /Game/wespe-parts/species1_male_metafemur_right.species1_male_metafemur_right
+[2018.11.27-16.49.59:771][  0]LogStaticMesh: Building static mesh species1_male_metanotum...
+[2018.11.27-16.50.01:259][  0]LogStaticMesh: Built static mesh [1.49s] /Game/wespe-parts/species1_male_metanotum.species1_male_metanotum
+[2018.11.27-16.50.01:261][  0]LogStaticMesh: Building static mesh species1_male_metapectal-propodeal_complex...
+[2018.11.27-16.50.22:520][  0]LogStaticMesh: Built static mesh [21.26s] /Game/wespe-parts/species1_male_metapectal-propodeal_complex.species1_male_metapectal-propodeal_complex
+[2018.11.27-16.50.22:524][  0]LogStaticMesh: Building static mesh species1_male_metatarsus_left...
+[2018.11.27-16.50.23:176][  0]LogStaticMesh: Built static mesh [0.65s] /Game/wespe-parts/species1_male_metatarsus_left.species1_male_metatarsus_left
+[2018.11.27-16.50.23:178][  0]LogStaticMesh: Building static mesh species1_male_metatarsus_right...
+[2018.11.27-16.50.23:846][  0]LogStaticMesh: Built static mesh [0.67s] /Game/wespe-parts/species1_male_metatarsus_right.species1_male_metatarsus_right
+[2018.11.27-16.50.23:847][  0]LogStaticMesh: Building static mesh species1_male_metatibia_left...
+[2018.11.27-16.50.25:738][  0]LogStaticMesh: Built static mesh [1.89s] /Game/wespe-parts/species1_male_metatibia_left.species1_male_metatibia_left
+[2018.11.27-16.50.25:740][  0]LogStaticMesh: Building static mesh species1_male_metatibia_right...
+[2018.11.27-16.50.27:679][  0]LogStaticMesh: Built static mesh [1.94s] /Game/wespe-parts/species1_male_metatibia_right.species1_male_metatibia_right
+[2018.11.27-16.50.27:684][  0]LogStaticMesh: Building static mesh species1_male_metatrochanter_left...
+[2018.11.27-16.50.28:342][  0]LogStaticMesh: Built static mesh [0.66s] /Game/wespe-parts/species1_male_metatrochanter_left.species1_male_metatrochanter_left
+[2018.11.27-16.50.28:343][  0]LogStaticMesh: Building static mesh species1_male_metatrochanter_right...
+[2018.11.27-16.50.28:720][  0]LogStaticMesh: Built static mesh [0.38s] /Game/wespe-parts/species1_male_metatrochanter_right.species1_male_metatrochanter_right
+[2018.11.27-16.50.28:730][  0]LogStaticMesh: Building static mesh species1_male_petiole...
+[2018.11.27-16.50.32:226][  0]LogStaticMesh: Built static mesh [3.50s] /Game/wespe-parts/species1_male_petiole.species1_male_petiole
+[2018.11.27-16.50.32:229][  0]LogStaticMesh: Building static mesh species1_male_procoxa_left...
+[2018.11.27-16.50.32:965][  0]LogStaticMesh: Built static mesh [0.74s] /Game/wespe-parts/species1_male_procoxa_left.species1_male_procoxa_left
+[2018.11.27-16.50.32:968][  0]LogStaticMesh: Building static mesh species1_male_procoxa_right...
+[2018.11.27-16.50.33:786][  0]LogStaticMesh: Built static mesh [0.82s] /Game/wespe-parts/species1_male_procoxa_right.species1_male_procoxa_right
+[2018.11.27-16.50.33:788][  0]LogStaticMesh: Building static mesh species1_male_profemur_left...
+[2018.11.27-16.50.35:225][  0]LogStaticMesh: Built static mesh [1.44s] /Game/wespe-parts/species1_male_profemur_left.species1_male_profemur_left
+[2018.11.27-16.50.35:227][  0]LogStaticMesh: Building static mesh species1_male_profemur_right...
+[2018.11.27-16.50.38:046][  0]LogStaticMesh: Built static mesh [2.82s] /Game/wespe-parts/species1_male_profemur_right.species1_male_profemur_right
+[2018.11.27-16.50.38:050][  0]LogStaticMesh: Building static mesh species1_male_pronotum_and_prepectal_shelf...
+[2018.11.27-16.50.42:918][  0]LogStaticMesh: Built static mesh [4.87s] /Game/wespe-parts/species1_male_pronotum_and_prepectal_shelf.species1_male_pronotum_and_prepectal_shelf
+[2018.11.27-16.50.42:921][  0]LogStaticMesh: Building static mesh species1_male_propleuron_left...
+[2018.11.27-16.50.43:953][  0]LogStaticMesh: Built static mesh [1.03s] /Game/wespe-parts/species1_male_propleuron_left.species1_male_propleuron_left
+[2018.11.27-16.50.43:954][  0]LogStaticMesh: Building static mesh species1_male_propleuron_right...
+[2018.11.27-16.50.44:906][  0]LogStaticMesh: Built static mesh [0.95s] /Game/wespe-parts/species1_male_propleuron_right.species1_male_propleuron_right
+[2018.11.27-16.50.44:907][  0]LogStaticMesh: Building static mesh species1_male_prosternum...
+[2018.11.27-16.50.45:475][  0]LogStaticMesh: Built static mesh [0.57s] /Game/wespe-parts/species1_male_prosternum.species1_male_prosternum
+[2018.11.27-16.50.45:476][  0]LogStaticMesh: Building static mesh species1_male_protarsus_left...
+[2018.11.27-16.50.46:038][  0]LogStaticMesh: Built static mesh [0.56s] /Game/wespe-parts/species1_male_protarsus_left.species1_male_protarsus_left
+[2018.11.27-16.50.46:040][  0]LogStaticMesh: Building static mesh species1_male_protarsus_right...
+[2018.11.27-16.50.46:604][  0]LogStaticMesh: Built static mesh [0.56s] /Game/wespe-parts/species1_male_protarsus_right.species1_male_protarsus_right
+[2018.11.27-16.50.46:605][  0]LogStaticMesh: Building static mesh species1_male_protibia_left...
+[2018.11.27-16.50.48:937][  0]LogStaticMesh: Built static mesh [2.33s] /Game/wespe-parts/species1_male_protibia_left.species1_male_protibia_left
+[2018.11.27-16.50.48:941][  0]LogStaticMesh: Building static mesh species1_male_protibia_right...
+[2018.11.27-16.50.51:121][  0]LogStaticMesh: Built static mesh [2.18s] /Game/wespe-parts/species1_male_protibia_right.species1_male_protibia_right
+[2018.11.27-16.50.51:124][  0]LogStaticMesh: Building static mesh species1_male_protrochanter_left...
+[2018.11.27-16.50.51:517][  0]LogStaticMesh: Built static mesh [0.39s] /Game/wespe-parts/species1_male_protrochanter_left.species1_male_protrochanter_left
+[2018.11.27-16.50.51:517][  0]LogStaticMesh: Building static mesh species1_male_protrochanter_right...
+[2018.11.27-16.50.52:014][  0]LogStaticMesh: Built static mesh [0.50s] /Game/wespe-parts/species1_male_protrochanter_right.species1_male_protrochanter_right
+[2018.11.27-16.50.52:014][  0]LogStaticMesh: Building static mesh species1_male_right_wings...
+[2018.11.27-16.50.59:615][  0]LogStaticMesh: Built static mesh [7.60s] /Game/wespe-parts/species1_male_right_wings.species1_male_right_wings
+[2018.11.27-16.50.59:623][  0]LogStaticMesh: Building static mesh species1_male_scale_bar...
+[2018.11.27-16.50.59:655][  0]LogStaticMesh: Built static mesh [0.03s] /Game/wespe-parts/species1_male_scale_bar.species1_male_scale_bar
+[2018.11.27-16.50.59:656][  0]LogStaticMesh: Building static mesh species1_male_tegula_left...
+[2018.11.27-16.50.59:891][  0]LogStaticMesh: Built static mesh [0.24s] /Game/wespe-parts/species1_male_tegula_left.species1_male_tegula_left
+[2018.11.27-16.50.59:892][  0]LogStaticMesh: Building static mesh species1_male_tegula_right...
+[2018.11.27-16.51.00:210][  0]LogStaticMesh: Built static mesh [0.32s] /Game/wespe-parts/species1_male_tegula_right.species1_male_tegula_right
+[2018.11.27-16.51.00:214][  0]LogStaticMesh: Building static mesh species1_male...
+[2018.11.27-16.54.34:535][  0]LogStaticMesh: Built static mesh [214.32s] /Game/wespe/species1_male.species1_male
+[2018.11.27-16.54.34:641][  0]LogStaticMesh: Building static mesh species1_male_larval_cephalo-pharyngeal_skeleton...
+[2018.11.27-16.54.36:085][  0]LogStaticMesh: Built static mesh [1.44s] /Game/wespe-parts/species1_male_larval_cephalo-pharyngeal_skeleton.species1_male_larval_cephalo-pharyngeal_skeleton
+[2018.11.27-16.54.36:087][  0]LogStaticMesh: Building static mesh species1_male_left_half_of_pupa...
+[2018.11.27-16.54.38:595][  0]LogStaticMesh: Built static mesh [2.51s] /Game/wespe-parts/species1_male_left_half_of_pupa.species1_male_left_half_of_pupa
+[2018.11.27-16.54.38:598][  0]LogStaticMesh: Building static mesh species1_male_left_half_of_puparium...
+[2018.11.27-16.54.41:083][  0]LogStaticMesh: Built static mesh [2.49s] /Game/wespe-parts/species1_male_left_half_of_puparium.species1_male_left_half_of_puparium
+[2018.11.27-16.54.41:089][  0]LogStaticMesh: Building static mesh species1_male_right_half_of_pupa...
+[2018.11.27-16.54.43:625][  0]LogStaticMesh: Built static mesh [2.54s] /Game/wespe-parts/species1_male_right_half_of_pupa.species1_male_right_half_of_pupa
+[2018.11.27-16.54.43:629][  0]LogStaticMesh: Building static mesh species1_male_right_half_of_puparium...
+[2018.11.27-16.54.46:196][  0]LogStaticMesh: Built static mesh [2.57s] /Game/wespe-parts/species1_male_right_half_of_puparium.species1_male_right_half_of_puparium
+[2018.11.27-16.54.46:335][  0]LogMaterial: Missing cached shader map for material scale_bar, compiling. 
+[2018.11.27-16.54.46:371][  0]LogMaterial: Missing cached shader map for material puparium, compiling. 
+[2018.11.27-16.54.57:722][  0]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2018.11.27-16.55.00:185][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2018.11.27-16.55.00:528][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2018.11.27-16.55.02:519][  0]LogMaterial: Missing cached shader map for material pupal_skin, compiling. 
+[2018.11.27-16.55.02:540][  0]LogMaterial: Missing cached shader map for material mouth_hooks, compiling. 
+[2018.11.27-16.55.02:563][  0]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2018.11.27-16.55.39:991][  0]LogMaterial: Missing cached shader map for material puparium, compiling. 
+[2018.11.27-16.55.41:205][  0]LogMaterial: Missing cached shader map for material pupal_skin, compiling. 
+[2018.11.27-16.55.42:331][  0]LogMaterial: Missing cached shader map for material mouth_hooks, compiling. 
+[2018.11.27-16.55.42:741][  0]LogTexture:Display: Building textures: T_Wood_Oak_N (BC5)
+[2018.11.27-16.55.43:592][  0]LogTexture:Display: Building textures: T_Wood_Oak_D (AutoDXT)
+[2018.11.27-16.55.48:183][  0]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
+[2018.11.27-16.55.52:885][  0]LogMaterial: Missing cached shader map for material scale_bar, compiling. 
+[2018.11.27-16.55.55:484][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.11.27-16.55.55:712][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.11.27-16.55.55:727][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.27-16.55.57:303][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,575.761ms to complete.
+[2018.11.27-16.55.57:303][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 677.361
+[2018.11.27-16.55.57:585][  0]LogCollectionManager: Loaded 0 collections in 0.013497 seconds
+[2018.11.27-16.55.57:648][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/vrWTrigo9mult/Saved/Collections/' took 0.01s
+[2018.11.27-16.55.57:648][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/vrWTrigo9mult/Content/Developers/PDV/Collections/' took 0.01s
+[2018.11.27-16.55.57:648][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/vrWTrigo9mult/Content/Collections/' took 0.01s
+[2018.11.27-16.55.57:648][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.11.27-16.55.57:666][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2141 classes and 415 folders.
+[2018.11.27-16.55.57:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.27-16.55.57:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.27-16.55.57:679][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2018.11.27-16.55.57:689][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.27-16.55.57:863][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.11.27-16.55.57:885][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.11.27-16.55.57:961][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.11.27-16.55.58:031][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.11.27-16.55.58:075][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.11.27-16.55.58:076][  0]LogLoad: (Engine Initialization) Total time: 698.97 seconds
+[2018.11.27-16.55.58:076][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.09 seconds
+[2018.11.27-16.55.58:076][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.11.27-16.55.58:088][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.11.27-16.55.58:089][  0]LogOcInput: OculusInput pre-init called
+[2018.11.27-16.55.58:684][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.27-16.55.58:919][  0]LogRenderer: Reallocating scene render targets to support 964x380 (Frame:2).
+[2018.11.27-16.55.59:461][  3]LogAssetRegistry: Asset discovery search completed in 687.6993 seconds
+[2018.11.27-16.55.59:461][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.27-16.55.59:461][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.11.27-16.56.19:981][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.11.27-16.56.19:982][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.27-16.56.19:989][129]PIE: New page: PIE session: MotionControllerMap (Nov 27, 2018, 6:56:19 PM)
+[2018.11.27-16.56.19:990][129]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.11.27-16.56.20:029][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038901s)
+[2018.11.27-16.56.20:029][129]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.11.27-16.56.20:030][129]LogPlayLevel: PIE: World Init took: (0.001484s)
+[2018.11.27-16.56.20:031][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.041464s)
+[2018.11.27-16.56.20:134][129]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2018.11.27-16.56.20:258][129]LogInit: FAudioDevice initialized.
+[2018.11.27-16.56.20:338][129]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.11.27-16.56.20:338][129]LogWorld: Game class is 'GameMode'
+[2018.11.27-16.56.20:364][129]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.11.27-17.56.20
+[2018.11.27-16.56.20:371][129]LogWorld: Bringing up level for play took: 0.026141
+[2018.11.27-16.56.20:382][129]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.11.27-16.56.20:383][129]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.27-16.56.20:383][129]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.27-16.56.20:383][129]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.27-16.56.20:395][129]LogBlueprintUserMessages: [aTrig00_2] aTrig00_2
+[2018.11.27-16.56.20:395][129]LogBlueprintUserMessages: [aTrig00_2] 1BPCube2 center of mass
+[2018.11.27-16.56.20:395][129]LogBlueprintUserMessages: [aTrig00_2] X=-310.008 Y=1489.992 Z=300.000
+[2018.11.27-16.56.20:395][129]LogBlueprintUserMessages: [aTrig00_2] location
+[2018.11.27-16.56.20:395][129]LogBlueprintUserMessages: [aTrig00_2] X=-310.000 Y=1490.000 Z=300.000
+[2018.11.27-16.56.20:396][129]LogBlueprintUserMessages: [BP_BlowupCenter_2] foreach-FOUND:
+[2018.11.27-16.56.20:396][129]LogBlueprintUserMessages: [BP_BlowupCenter_2] BP_BlowupCenter_2.StaticMeshComponent0 1M_Cube
+[2018.11.27-16.56.20:396][129]LogBlueprintUserMessages: [BP_BlowupCenter_2] 0
+[2018.11.27-16.56.20:400][129]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.27-16.56.20:413][129]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.42
+[2018.11.27-16.56.20:414][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.11.27-16.56.20:560][131]LogRenderer: Reallocating scene render targets to support 2028x1144 (Frame:88).
+[2018.11.27-16.56.20:590][131]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.017 s
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: === Handled ensure: ===
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: 
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: Ensure condition failed: ScreenRadius >= 0.0f [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Renderer\Private\ShadowSetup.cpp] [Line: 1552]
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: View.ShadowViewMatrices.ScreenScale nan, OriginalBounds.SphereRadius 17.320509, ShadowViewDistFromBounds 1036.391235
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: Stack: 
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: KERNEL32.DLL
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: ntdll.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: ntdll.dll
+[2018.11.27-16.56.20:590][131]LogOutputDevice:Error: 
+[2018.11.27-16.56.20:590][131]LogStats:                SubmitErrorReport -  0.000 s
+[2018.11.27-16.56.21:485][131]LogStats:                    SendNewReport -  0.895 s
+[2018.11.27-16.56.21:485][131]LogStats:             FDebug::EnsureFailed -  0.913 s
+[2018.11.27-16.56.21:490][131]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: === Handled ensure: ===
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: 
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: Ensure condition failed: Y != 0 [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMath.cpp] [Line: 79]
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: FMath::FMod(X=-nan(ind), Y=-nan(ind)) : Y is zero, this is invalid and would result in NaN!
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: Stack: 
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: UE4Editor-Core.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: KERNEL32.DLL
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: ntdll.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: ntdll.dll
+[2018.11.27-16.56.21:490][131]LogOutputDevice:Error: 
+[2018.11.27-16.56.21:490][131]LogStats:                SubmitErrorReport -  0.000 s
+[2018.11.27-16.56.22:060][131]LogStats:                    SendNewReport -  0.570 s
+[2018.11.27-16.56.22:060][131]LogStats:             FDebug::EnsureFailed -  0.571 s
+[2018.11.27-16.56.22:085][131]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:193][132]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:297][133]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:400][134]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:504][135]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:609][136]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:713][137]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:817][138]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.22:921][139]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:023][140]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:126][141]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:229][142]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:334][143]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:438][144]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:540][145]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:643][146]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:745][147]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:848][148]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.23:951][149]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:054][150]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:157][151]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:259][152]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:363][153]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:465][154]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:569][155]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:672][156]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:775][157]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:878][158]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.24:981][159]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:084][160]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:186][161]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:289][162]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:391][163]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:494][164]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:596][165]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:699][166]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:802][167]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.25:904][168]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:007][169]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:110][170]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:213][171]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:315][172]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:417][173]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:519][174]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:622][175]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:724][176]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:827][177]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.26:931][178]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:033][179]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:137][180]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:239][181]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:343][182]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:446][183]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:547][184]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:650][185]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:752][186]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:855][187]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.27:958][188]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:060][189]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:163][190]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:265][191]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:368][192]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:471][193]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:575][194]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:677][195]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:780][196]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:883][197]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.28:986][198]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:088][199]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:190][200]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:293][201]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:396][202]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:499][203]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:602][204]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:705][205]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:808][206]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.29:910][207]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:013][208]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:115][209]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:218][210]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:321][211]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:424][212]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:526][213]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:629][214]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:731][215]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:834][216]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.30:936][217]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:039][218]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:143][219]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:245][220]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:348][221]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:449][222]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:553][223]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:655][224]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:758][225]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:860][226]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.31:963][227]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:065][228]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:168][229]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:271][230]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:374][231]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:477][232]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:579][233]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:682][234]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:784][235]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:887][236]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.32:989][237]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:092][238]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:194][239]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:296][240]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:399][241]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:502][242]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:604][243]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:707][244]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:809][245]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.33:912][246]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:014][247]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:116][248]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:219][249]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:322][250]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:425][251]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:527][252]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:630][253]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:734][254]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:836][255]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.34:938][256]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:041][257]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:144][258]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:246][259]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:349][260]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:450][261]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:553][262]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:656][263]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:759][264]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:862][265]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.35:965][266]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:067][267]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:170][268]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:272][269]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:375][270]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:477][271]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:579][272]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:682][273]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:785][274]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:887][275]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.36:990][276]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:093][277]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:195][278]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:299][279]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:401][280]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:504][281]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:607][282]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:708][283]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:811][284]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.37:914][285]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:016][286]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:118][287]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:221][288]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:323][289]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:426][290]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:529][291]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:632][292]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:735][293]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:836][294]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.38:940][295]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:043][296]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:145][297]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:247][298]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:350][299]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:454][300]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:556][301]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:659][302]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:762][303]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:864][304]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.39:967][305]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:069][306]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:173][307]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:275][308]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:378][309]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:480][310]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:583][311]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:685][312]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:788][313]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:891][314]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.40:994][315]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:096][316]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:199][317]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:302][318]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:405][319]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:507][320]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:610][321]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:714][322]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:816][323]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.41:918][324]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:021][325]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:123][326]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:227][327]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:329][328]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:432][329]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:534][330]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:636][331]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:739][332]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:842][333]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.42:945][334]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:048][335]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:151][336]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:253][337]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:356][338]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:458][339]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:561][340]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:664][341]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:767][342]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:870][343]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.43:973][344]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.44:075][345]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.44:178][346]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.44:281][347]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.44:285][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.11.27-16.56.44:384][347]LogHMD: Warning:  SteamVR Compositor had an error on present (101)
+[2018.11.27-16.56.44:659][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.11.27-16.56.49:950][872]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.11.27-16.56.50:173][873]Cmd: QUIT_EDITOR
+[2018.11.27-16.56.51:111][873]LogExit: Preparing to exit.
+[2018.11.27-16.56.51:598][873]LogExit: Editor shut down
+[2018.11.27-16.56.51:599][873]LogExit: Transaction tracking system shut down
+[2018.11.27-16.56.52:507][873]LogObj: Freed 0b from 0 cluster array pools.
+[2018.11.27-16.56.52:507][873]LogExit: Object subsystem successfully closed.
+[2018.11.27-16.56.52:720][873]LogD3D11RHI: Shutdown
+[2018.11.27-16.56.52:720][873]LogD3D11RHI: CleanupD3DDevice
+[2018.11.27-16.56.52:725][873]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.27-16.56.52:779][873]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (234)
+[2018.11.27-16.56.52:779][873]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2018.11.27-16.56.52:779][873]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2018.11.27-16.56.52:779][873]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2018.11.27-16.56.52:779][873]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2018.11.27-16.56.52:779][873]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2018.11.27-16.56.52:780][873]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.13/FeaturePacks/' was aborted.
+[2018.11.27-16.56.52:782][873]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2018.11.27-16.56.52:782][873]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2018.11.27-16.56.52:782][873]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2018.11.27-16.56.52:783][873]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/vrWTrigo9mult/Content/Collections/' was aborted.
+[2018.11.27-16.56.52:783][873]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/vrWTrigo9mult/Content/Developers/PDV/Collections/' was aborted.
+[2018.11.27-16.56.52:783][873]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/vrWTrigo9mult/Saved/Collections/' was aborted.
+[2018.11.27-16.56.52:783][873]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2018.11.27-16.56.52:784][873]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2018.11.27-16.56.52:784][873]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2018.11.27-16.56.52:785][873]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2018.11.27-16.56.52:786][873]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2018.11.27-16.56.52:786][873]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2018.11.27-16.56.52:786][873]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2018.11.27-16.56.52:787][873]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module Media (206)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2018.11.27-16.56.52:788][873]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2018.11.27-16.56.52:789][873]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2018.11.27-16.56.52:791][873]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2018.11.27-16.56.52:791][873]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2018.11.27-16.56.52:791][873]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2018.11.27-16.56.52:792][873]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2018.11.27-16.56.52:792][873]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2018.11.27-16.56.53:371][873]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2018.11.27-16.56.53:372][873]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2018.11.27-16.56.53:372][873]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2018.11.27-16.56.53:372][873]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2018.11.27-16.56.53:373][873]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2018.11.27-16.56.53:373][873]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2018.11.27-16.56.53:373][873]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2018.11.27-16.56.53:374][873]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2018.11.27-16.56.53:374][873]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2018.11.27-16.56.53:374][873]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2018.11.27-16.56.53:375][873]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2018.11.27-16.56.53:375][873]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2018.11.27-16.56.53:376][873]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2018.11.27-16.56.53:376][873]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2018.11.27-16.56.53:376][873]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2018.11.27-16.56.53:376][873]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2018.11.27-16.56.53:377][873]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2018.11.27-16.56.53:377][873]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2018.11.27-16.56.53:377][873]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2018.11.27-16.56.53:378][873]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2018.11.27-16.56.53:378][873]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2018.11.27-16.56.53:379][873]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2018.11.27-16.56.53:380][873]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2018.11.27-16.56.53:380][873]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2018.11.27-16.56.53:381][873]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2018.11.27-16.56.53:381][873]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2018.11.27-16.56.53:424][873]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2018.11.27-16.56.53:425][873]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2018.11.27-16.56.53:426][873]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2018.11.27-16.56.53:427][873]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2018.11.27-16.56.53:427][873]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2018.11.27-16.56.53:428][873]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2018.11.27-16.56.53:429][873]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2018.11.27-16.56.53:429][873]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2018.11.27-16.56.53:431][873]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2018.11.27-16.56.53:436][873]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2018.11.27-16.56.53:438][873]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2018.11.27-16.56.53:439][873]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2018.11.27-16.56.53:439][873]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2018.11.27-16.56.53:439][873]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2018.11.27-16.56.53:440][873]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2018.11.27-16.56.53:440][873]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2018.11.27-16.56.53:441][873]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2018.11.27-16.56.53:442][873]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2018.11.27-16.56.53:442][873]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2018.11.27-16.56.53:442][873]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2018.11.27-16.56.53:474][873]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2018.11.27-16.56.53:475][873]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2018.11.27-16.56.53:475][873]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2018.11.27-16.56.53:476][873]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2018.11.27-16.56.53:477][873]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2018.11.27-16.56.53:477][873]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2018.11.27-16.56.53:477][873]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2018.11.27-16.56.53:477][873]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2018.11.27-16.56.53:477][873]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2018.11.27-16.56.53:478][873]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2018.11.27-16.56.53:478][873]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2018.11.27-16.56.53:478][873]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2018.11.27-16.56.53:478][873]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2018.11.27-16.56.53:479][873]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2018.11.27-16.56.53:479][873]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2018.11.27-16.56.53:479][873]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2018.11.27-16.56.53:480][873]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2018.11.27-16.56.53:480][873]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2018.11.27-16.56.53:480][873]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2018.11.27-16.56.53:481][873]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2018.11.27-16.56.53:482][873]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2018.11.27-16.56.53:482][873]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2018.11.27-16.56.53:483][873]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2018.11.27-16.56.53:483][873]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2018.11.27-16.56.53:483][873]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2018.11.27-16.56.53:483][873]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2018.11.27-16.56.53:483][873]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2018.11.27-16.56.53:483][873]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2018.11.27-16.56.53:484][873]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2018.11.27-16.56.53:485][873]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2018.11.27-16.56.53:485][873]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2018.11.27-16.56.53:486][873]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2018.11.27-16.56.53:487][873]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2018.11.27-16.56.53:488][873]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2018.11.27-16.56.53:588][873]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2018.11.27-16.56.53:688][873]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2018.11.27-16.56.53:688][873]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2018.11.27-16.56.53:688][873]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2018.11.27-16.56.53:689][873]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2018.11.27-16.56.53:692][873]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2018.11.27-16.56.53:692][873]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2018.11.27-16.56.53:692][873]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2018.11.27-16.56.53:692][873]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2018.11.27-16.56.53:692][873]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2018.11.27-16.56.53:692][873]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2018.11.27-16.56.53:693][873]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2018.11.27-16.56.53:694][873]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2018.11.27-16.56.53:694][873]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2018.11.27-16.56.53:695][873]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2018.11.27-16.56.53:696][873]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2018.11.27-16.56.53:696][873]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2018.11.27-16.56.53:696][873]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2018.11.27-16.56.53:697][873]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2018.11.27-16.56.53:698][873]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2018.11.27-16.56.53:699][873]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2018.11.27-16.56.53:700][873]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2018.11.27-16.56.53:700][873]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2018.11.27-16.56.53:703][873]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2018.11.27-16.56.53:704][873]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2018.11.27-16.56.53:704][873]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2018.11.27-16.56.53:704][873]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2018.11.27-16.56.53:704][873]LogModuleManager: Shutting down and abandoning module Core (67)
+[2018.11.27-16.56.53:704][873]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2018.11.27-16.56.53:704][873]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.11.27-16.56.53:704][873]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/vrWTrigo9mult/Content/' was aborted.
+[2018.11.27-16.56.53:704][873]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.11.27-16.56.53:704][873]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2018.11.27-16.56.53:948][873]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2018.11.27-16.56.53:948][873]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2018.11.27-16.56.53:948][873]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2018.11.27-16.56.53:949][873]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2018.11.27-16.56.53:971][873]LogDerivedDataCache: Shutdown
+[2018.11.27-16.56.53:972][873]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2018.11.27-16.56.53:972][873]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2018.11.27-16.56.53:972][873]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2018.11.27-16.56.53:972][873]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2018.11.27-16.56.53:973][873]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2018.11.27-16.56.53:974][873]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2018.11.27-16.56.53:975][873]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2018.11.27-16.56.53:975][873]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2018.11.27-16.56.53:975][873]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2018.11.27-16.56.53:975][873]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2018.11.27-16.56.53:975][873]LogOnline:Display: Unloading online subsystem: NULL
+[2018.11.27-16.56.53:975][873]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2018.11.27-16.56.53:975][873]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.27-16.56.53:975][873]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9D1442FA-4A38-4424-2CBC-EFA0DE85D541%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=48a559c1457afdc1d0993ca787c5572b%7C526c3015292f412191fd915cb8510c16%7C23ec979f-9cca-4e97-b38a-3935e3d085fa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.27-16.56.53:999][873]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2018.11.27-16.56.54:000][873]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2018.11.27-16.56.54:000][873]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2018.11.27-16.56.54:000][873]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2018.11.27-16.56.54:000][873]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2018.11.27-16.56.54:001][873]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2018.11.27-16.56.54:002][873]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2018.11.27-16.56.54:005][873]LogExit: Exiting.
+[2018.11.27-16.56.54:007][873]Log file closed, 11/27/18 17:56:54
